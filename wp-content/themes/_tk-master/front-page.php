@@ -12,6 +12,7 @@
  */
 
 get_header(); ?>
+<div id="content" class="main-content-inner col-sm-12 col-md-12">
 
 <!-- Slider -->
 <div class="row">
@@ -20,17 +21,18 @@ get_header(); ?>
     </div><!-- .front-page-slider columns -->
 </div><!-- .row -->
 
+<!-- The WordPress Loop -->
+<?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+
 <!-- Main content area -->
 <div class="row front-page-row">
     <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="front-page-box-img col-sm-12 col-md-6">
-            <!-- The WordPress Loop -->
-            <?php if ( have_posts() ) : ?>
-                <?php while ( have_posts() ) : the_post(); ?>
 
                 <div class="img-responsive">
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
-                </div>
+                </div><!-- .img-responsive -->
 
         </div><!-- front-page-box-img columns -->
 
@@ -40,7 +42,8 @@ get_header(); ?>
                     <p><?php the_excerpt(); ?></p>
         </div><!-- .front-page-box-text columns -->
     </div><!-- #post-ID -->
-</div><!-- .row -->
+    <div class="clearfix"></div>
+</div><!-- .row (front-page-row) -->
 
     <?php endwhile; ?>
 
@@ -51,5 +54,7 @@ get_header(); ?>
 		<?php get_template_part( 'no-results', 'index' ); ?>
 
 	<?php endif; ?>
+
+<!-- Fat footer -->
 
 <?php get_footer(); ?>

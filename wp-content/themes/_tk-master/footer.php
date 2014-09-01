@@ -24,8 +24,8 @@
 					<?php printf( __( 'Theme: %1$s by %2$s.', '_tk' ), '_tk', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 				</div><!-- close .site-info -->
 
-			</div>
-		</div>
+			</div><!-- .site-footer-inner col-sm-12 -->
+		</div><!-- .row (site-footer) -->
 	</div><!-- close .container -->
 </footer><!-- close #colophon -->
 
