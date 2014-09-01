@@ -12,24 +12,32 @@
  */
 
 get_header(); ?>
-<div id="content" class="front-page-content col-sm-12 col-md-12">
 
-<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
+<!-- Slider -->
+<div class="row">
+    <div class="front-page-slider col-sm-12 col-md-12">
+        <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
+    </div><!-- front-page-slider columns -->
+</div><!-- row -->
 
-	<?php if ( have_posts() ) : ?>
+<!-- Main content area -->
+<div class="row">
+    <div class="front-page-box-img col-sm-12 col-md-5">
+        <!-- The WordPress Loop -->
+        <?php if ( have_posts() ) : ?>
+            <?php while ( have_posts() ) : the_post(); ?>
 
-		<?php /* Start the Loop */ ?>
-		<?php while ( have_posts() ) : the_post(); ?>
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
 
-			<?php
-				/* Include the Post-Format-specific template for the content.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'content', get_post_format() );
-			?>
+    </div><!-- front-page-box-img columns -->
 
-		<?php endwhile; ?>
+    <div class="front-page-box-text col-sm-12 col-md-7">
+        <?php get_template_part( 'content', get_post_format() ); ?>
+
+    </div><!-- front-page-box-text columns -->
+</div><!-- row -->
+
+    <?php endwhile; ?>
 
 		<?php _tk_content_nav( 'nav-below' ); ?>
 

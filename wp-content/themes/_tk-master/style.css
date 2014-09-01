@@ -209,7 +209,7 @@ object {
 /* Hey, if you don't need my comments anymore, just delete me! :)  */
 
 /* ------------------------------------
-** SEARCH FORM
+** NAVIGATION HEADER
 --------------------------------------- */
 
 .header-search-form {
@@ -223,4 +223,36 @@ object {
 
 .navbar-nav {
     float: left;
+}
+
+/* ------------------------------------
+** TYPOGRAPHY
+--------------------------------------- */
+
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+}
+
+a:hover,
+a:focus {
+    color: #bada55;
+    text-decoration: none;
+}
+
+/* ------------------------------------
+** SLIDER
+--------------------------------------- */
+
+.front-page-slider {
+    margin-bottom: 30px;
 }
