@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="255" column="1" selection-start="5986" selection-end="5986" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="4035">
+            <state line="232" column="22" selection-start="5704" selection-end="5704" vertical-scroll-proportion="0.0" vertical-offset="3158" max-vertical-offset="4155">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="4569" selection-end="4637" vertical-scroll-proportion="-20.0" vertical-offset="960" max-vertical-offset="1560">
+            <state line="89" column="47" selection-start="4333" selection-end="4333" vertical-scroll-proportion="0.48613375" vertical-offset="1037" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-page.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="front-page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="80" selection-start="986" selection-end="986" vertical-scroll-proportion="0.4649266" vertical-offset="0" max-vertical-offset="675">
+            <state line="37" column="19" selection-start="1240" selection-end="1240" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -79,9 +79,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/header.php" />
       </list>
     </option>
   </component>
@@ -192,6 +192,122 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_tk-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_tk-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_tk-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_tk-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.tk.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_tk-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,20 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="4569" selection-end="4637" vertical-scroll-proportion="-20.0" vertical-offset="960" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="1" selection-start="5986" selection-end="5986" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="4035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="428" selection-end="428" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="510">
@@ -371,7 +473,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="80" selection-start="986" selection-end="986" vertical-scroll-proportion="0.4649266" vertical-offset="0" max-vertical-offset="675">
+        <state line="37" column="19" selection-start="1240" selection-end="1240" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="22" selection-start="5704" selection-end="5704" vertical-scroll-proportion="0.0" vertical-offset="3158" max-vertical-offset="4155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="47" selection-start="4333" selection-end="4333" vertical-scroll-proportion="0.48613375" vertical-offset="1037" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>

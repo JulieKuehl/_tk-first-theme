@@ -17,8 +17,8 @@ get_header(); ?>
 <div class="row">
     <div class="front-page-slider col-sm-12 col-md-12">
         <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
-    </div><!-- front-page-slider columns -->
-</div><!-- row -->
+    </div><!-- .front-page-slider columns -->
+</div><!-- .row -->
 
 <!-- Main content area -->
 <div class="row">
@@ -34,8 +34,8 @@ get_header(); ?>
     <div class="front-page-box-text col-sm-12 col-md-7">
         <?php get_template_part( 'content', get_post_format() ); ?>
 
-    </div><!-- front-page-box-text columns -->
-</div><!-- row -->
+    </div><!-- .front-page-box-text columns -->
+</div><!-- .row -->
 
     <?php endwhile; ?>
 
