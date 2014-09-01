@@ -290,3 +290,10 @@ a:focus {
 .front-page-row {
     margin-bottom: 30px;
 }
+
+.sticky {
+    display: inline-block;
+    float: none;
+    background: rgba( 186,218,85,0.3 );
+    z-index: -10;
+}

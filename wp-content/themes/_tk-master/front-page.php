@@ -22,22 +22,24 @@ get_header(); ?>
 
 <!-- Main content area -->
 <div class="row front-page-row">
-    <div class="front-page-box-img col-sm-12 col-md-5">
-        <!-- The WordPress Loop -->
-        <?php if ( have_posts() ) : ?>
-            <?php while ( have_posts() ) : the_post(); ?>
+    <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <div class="front-page-box-img col-sm-12 col-md-6">
+            <!-- The WordPress Loop -->
+            <?php if ( have_posts() ) : ?>
+                <?php while ( have_posts() ) : the_post(); ?>
 
-            <div class="img-responsive">
-                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
-            </div>
+                <div class="img-responsive">
+                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                </div>
 
-    </div><!-- front-page-box-img columns -->
+        </div><!-- front-page-box-img columns -->
 
-    <div class="front-page-box-text col-sm-12 col-md-7">
-        <h3 class="front-page-box-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <p class="post_meta">By <?php the_author(); ?> | <?php the_time('F jS, Y'); ?> | <?php the_category(', '); ?> |  <?php comments_number( '0 Comment', '1 Comment', '% Comments' ); ?></p>
-            <p><?php the_excerpt(); ?></p>
-    </div><!-- .front-page-box-text columns -->
+        <div class="front-page-box-text col-sm-12 col-md-6">
+                <h3 class="front-page-box-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <p class="post_meta">By <?php the_author(); ?> | <?php the_time('F jS, Y'); ?> | <?php the_category(', '); ?> |  <?php comments_number( '0 Comment', '1 Comment', '% Comments' ); ?></p>
+                    <p><?php the_excerpt(); ?></p>
+        </div><!-- .front-page-box-text columns -->
+    </div><!-- #post-ID -->
 </div><!-- .row -->
 
     <?php endwhile; ?>
