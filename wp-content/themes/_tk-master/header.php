@@ -21,8 +21,8 @@
 	<?php do_action( 'before' ); ?>
 
 <nav class="site-navigation">
-    <div class="container">
-        <div class="row">
+    <div class="container site-nav-bar">
+        <div class="row site-nav-bar">
             <div class="site-navigation-inner col-sm-12 col-md-12">
                 <div class="navbar navbar-default">
                     <div class="navbar-header">
@@ -67,7 +67,7 @@
 
                 </div><!-- .navbar -->
             </div><!-- .site-navigation-inner -->
-        </div>
+        </div><!-- .row -->
     </div><!-- .container -->
 </nav><!-- .site-navigation -->
 
@@ -88,10 +88,10 @@
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
                           title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<h4 class="site-description"><?php bloginfo( 'description' ); ?></h4>
-				</div>
+				</div><!-- site branding -->
 
-			</div>
-		</div>
+			</div><!-- .site-header-inner -->
+		</div><!-- .row -->
 	</div><!-- .container -->
 </header><!-- #masthead -->
 

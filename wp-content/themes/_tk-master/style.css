@@ -225,6 +225,11 @@ object {
     float: left;
 }
 
+.site-nav-bar {
+    padding: 0 15px 0 15px;
+    margin-bottom: 0;
+}
+
 /* ------------------------------------
 ** SITE BRANDING HEADER
 --------------------------------------- */
@@ -263,4 +268,26 @@ a:focus {
 
 .front-page-slider {
     margin-bottom: 30px;
+}
+
+/* ------------------------------------
+** FRONT PAGE
+--------------------------------------- */
+
+.page-header {
+    margin: 0;
+}
+
+.front-page-box-title {
+    margin-top: 0;
+}
+
+.front-page-row {
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    width: 100%;
 }
