@@ -230,6 +230,11 @@ object {
     margin-bottom: 0;
 }
 
+.navbar-default .navbar-nav > .active a {
+    color: #bada55;
+    background-color: transparent;
+}
+
 /* ------------------------------------
 ** SITE BRANDING HEADER
 --------------------------------------- */
@@ -284,10 +289,4 @@ a:focus {
 
 .front-page-row {
     margin-bottom: 30px;
-}
-
-.img-responsive {
-    display: block;
-    height: auto;
-    width: 100%;
 }
