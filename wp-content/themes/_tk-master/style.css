@@ -283,17 +283,23 @@ a:focus {
     margin: 0;
 }
 
+.front-page-box-img {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
 .front-page-box-title {
     margin-top: 0;
 }
 
 .front-page-row {
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
 }
 
 .sticky {
     display: inline-block;
     float: none;
+    margin: 0;
     background: rgba( 186,218,85,0.3 );
     z-index: -10;
 }
