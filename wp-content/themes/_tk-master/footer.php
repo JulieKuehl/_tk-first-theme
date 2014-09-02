@@ -11,40 +11,53 @@
 		</div><!-- close .row -->
 	</div><!-- close .container -->
 </div><!-- close .main-content -->
-<div class="fat-footer">
-    <div class="footer-left">
-        <?php if ( is_active_sidebar( 'footer-left' ) ) : ?>
-            <div id="footer-left" class="footer-left widget-area" role="complementary">
-                <?php dynamic_sidebar( 'footer-left' ); ?>
-            </div><!-- #primary-sidebar -->
-        <?php endif; ?>
-    </div>
-    <div class="footer-center">
-        <?php if ( is_active_sidebar( 'footer-center' ) ) : ?>
-            <div id="footer-left" class="footer-center widget-area" role="complementary">
-                <?php dynamic_sidebar( 'footer-center' ); ?>
-            </div><!-- #primary-sidebar -->
-        <?php endif; ?>
-    </div>
-    <div class="footer-right">
-        <?php if ( is_active_sidebar( 'footer-right' ) ) : ?>
-            <div id="footer-left" class="footer-right widget-area" role="complementary">
-                <?php dynamic_sidebar( 'footer-right' ); ?>
-            </div><!-- #primary-sidebar -->
-        <?php endif; ?>
-    </div>
-</div>
+
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="row">
 			<div class="site-footer-inner col-sm-12">
 
+                <div class="fat-footer">
+                    <div class="footer-one-widget col-sm-12 col-md-3">
+                        <?php if ( is_active_sidebar( 'footer-one' ) ) : ?>
+                            <div id="footer-left" class="footer-one widget-area" role="complementary">
+                                <?php dynamic_sidebar( 'footer-one' ); ?>
+                            </div><!-- #footer-one -->
+                        <?php endif; ?>
+                    </div><!-- .footer-one -->
+                    <div class="footer-two-widget col-sm-12 col-md-3">
+                        <?php if ( is_active_sidebar( 'footer-two' ) ) : ?>
+                            <div id="footer-two" class="footer-two widget-area" role="complementary">
+                                <?php dynamic_sidebar( 'footer-two' ); ?>
+                            </div><!-- #footer-two -->
+                        <?php endif; ?>
+                    </div><!-- .footer-two -->
+                    <div class="footer-three-widget col-sm-12 col-md-3">
+                        <?php if ( is_active_sidebar( 'footer-three' ) ) : ?>
+                            <div id="footer-three" class="footer-three widget-area" role="complementary">
+                                <?php dynamic_sidebar( 'footer-three' ); ?>
+                            </div><!-- #footer-three -->
+                        <?php endif; ?>
+                    </div><!-- .footer-three -->
+                    <div class="footer-four-widget col-sm-12 col-md-3">
+                        <?php if ( is_active_sidebar( 'footer-four' ) ) : ?>
+                            <div id="footer-four" class="footer-four widget-area" role="complementary">
+                                <?php dynamic_sidebar( 'footer-four' ); ?>
+                            </div><!-- #footer-four -->
+                        <?php endif; ?>
+                    </div><!-- .footer-four -->
+                </div><!-- .fat-footer -->
+            </div><!-- .site-footer-inner col-sm-12 -->
+        </div><!-- .row (site-footer) -->
+
+        <div class="row">
+            <div class="site-footer-inner col-sm-12">
 				<div class="site-info">
 					<?php do_action( '_tk_credits' ); ?>
 					<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', '_tk' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', '_tk' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-					<?php printf( __( 'Theme: %1$s by %2$s.', '_tk' ), '_tk', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+					<?php printf( __( 'Theme: %1$s by %2$s.', '_tk' ), '_tk', '<a href="http://straightforwardwebsolutions.com/" rel="designer">straightFORWARD Web Solutions</a>' ); ?>
 				</div><!-- close .site-info -->
 
 			</div><!-- .site-footer-inner col-sm-12 -->

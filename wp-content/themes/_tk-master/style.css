@@ -269,6 +269,10 @@ h6 {
     text-transform: capitalize;
 }
 
+h6 {
+    text-transform: uppercase;
+}
+
 a:hover,
 a:focus {
     color: #bada55;
@@ -347,33 +351,28 @@ a:focus {
 ** FOOTER
 --------------------------------------- */
 
-.fat-footer {
+#colophon {
     background: #cacaca;
-    padding: 1.5em;
+    padding-top: 1.5em;
 }
 
-.footer-left {
-    display: block;
-    float: left;
+.fat-footer {
+    min-height: 15em;
 }
 
-.footer-center {
-    display: block;
-    float: left;
-}
-
-.footer-right {
-    display: block;
-    float: right;
+.footer-title {
+    text-transform: uppercase;
 }
 
 .site-info {
     position: relative;
     min-height: 50px;
     margin-top: 20px;
-    padding-top: 20px;
+    margin-bottom: -15px;
+    padding-top: 15px;
     background-color: #f8f8f8;
     border-color: #e7e7e7;
     border-radius: 4px;
     text-align: center;
+    font-size: .8em;
 }
