@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="362" column="13" selection-start="7603" selection-end="7603" vertical-scroll-proportion="0.0" vertical-offset="5123" max-vertical-offset="5835">
+            <state line="364" column="21" selection-start="7658" selection-end="7658" vertical-scroll-proportion="8.712716" vertical-offset="0" max-vertical-offset="5850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="68" selection-start="596" selection-end="596" vertical-scroll-proportion="0.275" vertical-offset="60" max-vertical-offset="1050">
+            <state line="21" column="68" selection-start="596" selection-end="596" vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -69,9 +69,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/content-single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/sidebar.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/style.css" />
       </list>
     </option>
   </component>
@@ -489,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="362" column="13" selection-start="7603" selection-end="7603" vertical-scroll-proportion="0.0" vertical-offset="5123" max-vertical-offset="5835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="0" selection-start="3732" selection-end="3732" vertical-scroll-proportion="-18.75" vertical-offset="1335" max-vertical-offset="2940">
@@ -505,7 +498,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="68" selection-start="596" selection-end="596" vertical-scroll-proportion="0.275" vertical-offset="60" max-vertical-offset="1050">
+        <state line="21" column="68" selection-start="596" selection-end="596" vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="364" column="21" selection-start="7658" selection-end="7658" vertical-scroll-proportion="8.712716" vertical-offset="0" max-vertical-offset="5850">
           <folding />
         </state>
       </provider>

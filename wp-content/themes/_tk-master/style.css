@@ -362,6 +362,7 @@ a:focus {
 
 .footer-title {
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .site-info {
