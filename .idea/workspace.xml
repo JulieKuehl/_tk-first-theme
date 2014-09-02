@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="364" column="21" selection-start="7658" selection-end="7658" vertical-scroll-proportion="8.712716" vertical-offset="0" max-vertical-offset="5850">
+            <state line="9" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.25902668" vertical-offset="0" max-vertical-offset="5850">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="68" selection-start="596" selection-end="596" vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="1050">
+            <state line="13" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -498,14 +498,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="68" selection-start="596" selection-end="596" vertical-scroll-proportion="-6.875" vertical-offset="60" max-vertical-offset="1050">
+        <state line="13" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="21" selection-start="7658" selection-end="7658" vertical-scroll-proportion="8.712716" vertical-offset="0" max-vertical-offset="5850">
+        <state line="9" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.25902668" vertical-offset="0" max-vertical-offset="5850">
           <folding />
         </state>
       </provider>

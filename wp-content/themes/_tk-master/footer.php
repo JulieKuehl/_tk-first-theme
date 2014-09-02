@@ -12,7 +12,6 @@
 	</div><!-- close .container -->
 </div><!-- close .main-content -->
 
-
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="row">
