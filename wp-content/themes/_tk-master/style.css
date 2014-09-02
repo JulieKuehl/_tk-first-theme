@@ -243,6 +243,14 @@ object {
     text-align: center;
 }
 
+.site-description {
+    text-transform: uppercase;
+}
+
+.site-header {
+    margin-bottom: 2em;
+}
+
 /* ------------------------------------
 ** TYPOGRAPHY
 --------------------------------------- */
@@ -302,4 +310,70 @@ a:focus {
     margin: 0;
     background: rgba( 186,218,85,0.3 );
     z-index: -10;
+}
+
+/* ------------------------------------
+** SINGLE PAGE
+--------------------------------------- */
+
+.content-single-img {
+    margin: 1em 0;
+}
+
+.page-title {
+    margin-top: 0;
+}
+
+.page-header {
+    border-bottom: 0;
+}
+
+/* ------------------------------------
+** SIDEBAR
+--------------------------------------- */
+
+.widget {
+    border-top: 1px solid #ccc;
+    padding-top: .5em;
+    margin-bottom: 1.5em;
+}
+
+.widget-title {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+/* ------------------------------------
+** FOOTER
+--------------------------------------- */
+
+.fat-footer {
+    background: #cacaca;
+    padding: 1.5em;
+}
+
+.footer-left {
+    display: block;
+    float: left;
+}
+
+.footer-center {
+    display: block;
+    float: left;
+}
+
+.footer-right {
+    display: block;
+    float: right;
+}
+
+.site-info {
+    position: relative;
+    min-height: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    border-radius: 4px;
+    text-align: center;
 }

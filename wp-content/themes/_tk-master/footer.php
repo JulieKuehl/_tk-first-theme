@@ -11,6 +11,29 @@
 		</div><!-- close .row -->
 	</div><!-- close .container -->
 </div><!-- close .main-content -->
+<div class="fat-footer">
+    <div class="footer-left">
+        <?php if ( is_active_sidebar( 'footer-left' ) ) : ?>
+            <div id="footer-left" class="footer-left widget-area" role="complementary">
+                <?php dynamic_sidebar( 'footer-left' ); ?>
+            </div><!-- #primary-sidebar -->
+        <?php endif; ?>
+    </div>
+    <div class="footer-center">
+        <?php if ( is_active_sidebar( 'footer-center' ) ) : ?>
+            <div id="footer-left" class="footer-center widget-area" role="complementary">
+                <?php dynamic_sidebar( 'footer-center' ); ?>
+            </div><!-- #primary-sidebar -->
+        <?php endif; ?>
+    </div>
+    <div class="footer-right">
+        <?php if ( is_active_sidebar( 'footer-right' ) ) : ?>
+            <div id="footer-left" class="footer-right widget-area" role="complementary">
+                <?php dynamic_sidebar( 'footer-right' ); ?>
+            </div><!-- #primary-sidebar -->
+        <?php endif; ?>
+    </div>
+</div>
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">

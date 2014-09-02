@@ -4,6 +4,8 @@
  */
 ?>
 
+<div class="col-sm-12 col-md-8">
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="page-header">
 		<h1 class="page-title"><?php the_title(); ?></h1>
@@ -11,6 +13,9 @@
 		<div class="entry-meta">
 			<?php _tk_posted_on(); ?>
 		</div><!-- .entry-meta -->
+        <div class="content-single-img img-responsive">
+            <?php the_post_thumbnail('medium'); ?>
+        </div><!-- .content-single-img -->
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

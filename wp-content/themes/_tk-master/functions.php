@@ -94,6 +94,33 @@ function _tk_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
+
+    register_sidebar( array(
+        'name'          => __( 'Footer Left' ),
+        'id'            => 'footer-left',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h6 class="footer-title">',
+        'after_titel'   => '</h6>',
+    ) );
+
+    register_sidebar( array(
+      'name'          => __( 'Footer Center' ),
+      'id'            => 'footer-center',
+      'before_widget' => '<div class="footer-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h6 class="footer-title">',
+      'after_titel'   => '</h6>',
+    ) );
+
+    register_sidebar( array(
+      'name'          => __( 'Footer Right' ),
+      'id'            => 'footer-right',
+      'before_widget' => '<div class="footer-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h6 class="footer-title">',
+      'after_titel'   => '</h6>',
+    ) );
 }
 add_action( 'widgets_init', '_tk_widgets_init' );
 

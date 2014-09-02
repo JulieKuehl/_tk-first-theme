@@ -23,28 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="287" column="23" selection-start="6552" selection-end="6552" vertical-scroll-proportion="0.0" vertical-offset="4103" max-vertical-offset="4740">
+            <state line="366" column="17" selection-start="7675" selection-end="7675" vertical-scroll-proportion="0.81161696" vertical-offset="5063" max-vertical-offset="5850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/header.php">
+      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="16" selection-start="4652" selection-end="4717" vertical-scroll-proportion="-20.0" vertical-offset="960" max-vertical-offset="1560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front-page.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="4" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.8319739" vertical-offset="60" max-vertical-offset="840">
+            <state line="10" column="58" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.4166667" vertical-offset="8" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -53,7 +44,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="510">
+            <state line="31" column="52" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -70,12 +61,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/content-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/content-single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/_tk-master/style.css" />
       </list>
     </option>
   </component>
@@ -423,20 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="428" selection-end="428" vertical-scroll-proportion="0.07340946" vertical-offset="0" max-vertical-offset="613">
@@ -451,44 +433,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="157" selection-end="157" vertical-scroll-proportion="0.17128874" vertical-offset="0" max-vertical-offset="613">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="32" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.75" vertical-offset="150" max-vertical-offset="2400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="16" selection-start="4652" selection-end="4717" vertical-scroll-proportion="-20.0" vertical-offset="960" max-vertical-offset="1560">
+        <state line="102" column="16" selection-start="4652" selection-end="4717" vertical-scroll-proportion="0.8" vertical-offset="960" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="23" selection-start="6552" selection-end="6552" vertical-scroll-proportion="0.0" vertical-offset="3285" max-vertical-offset="4740">
+        <state line="12" column="62" selection-start="443" selection-end="443" vertical-scroll-proportion="0.25996533" vertical-offset="0" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="510">
+        <state line="12" column="16" selection-start="299" selection-end="299" vertical-scroll-proportion="0.076271184" vertical-offset="0" max-vertical-offset="590">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/front-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="4" selection-start="1863" selection-end="1863" vertical-scroll-proportion="0.8319739" vertical-offset="60" max-vertical-offset="840">
+        <state line="33" column="94" selection-start="1133" selection-end="1171" vertical-scroll-proportion="-7.5" vertical-offset="165" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="49" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="443" selection-end="443" vertical-scroll-proportion="0.325" vertical-offset="30" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.075" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="38" selection-start="3549" selection-end="3549" vertical-scroll-proportion="0.825" vertical-offset="1200" max-vertical-offset="2805">
+          <folding>
+            <marker date="1409616534000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409616534000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="58" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.4166667" vertical-offset="8" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="52" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/_tk-master/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="366" column="17" selection-start="7675" selection-end="7675" vertical-scroll-proportion="0.81161696" vertical-offset="5063" max-vertical-offset="5850">
           <folding />
         </state>
       </provider>

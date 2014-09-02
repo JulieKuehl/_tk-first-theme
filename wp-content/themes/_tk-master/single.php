@@ -9,8 +9,6 @@ get_header(); ?>
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
-        <?php the_post_thumbnail('medium'); ?>
-
 		<?php get_template_part( 'content', 'single' ); ?>
 
 		<?php _tk_content_nav( 'nav-below' ); ?>
