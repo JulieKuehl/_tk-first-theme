@@ -31,7 +31,7 @@ get_header(); ?>
         <div class="front-page-box-img col-sm-12 col-md-6">
 
                 <div class="img-responsive">
-                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('front-page-box-image'); ?></a>
                 </div><!-- .img-responsive -->
 
         </div><!-- front-page-box-img columns -->

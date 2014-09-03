@@ -40,7 +40,7 @@ function openair_setup() {
 		add_theme_support( 'post-thumbnails' );
 
         add_image_size( 'meteor-slider', 1170, 585 ); // 1170px wide x 585px high
-        add_image_size( 'front-page-box-image', 465, 260 ); // 465px wide x 260px high
+        add_image_size( 'front-page-box-image', 465, 260, true ); // 465px wide x 260px high
 
         /* From the ARTS site */
 //        add_image_size('slide-image',980,410,true);
