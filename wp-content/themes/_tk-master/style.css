@@ -1,5 +1,5 @@
 /*
-Theme Name: _tk
+Theme Name: Open Air
 Theme URI: http://github.com/JulieKuehl/_tk-first-theme/
 Author: Julie Kuehl
 Author URI: http://juliekuehl.com/
@@ -231,7 +231,7 @@ object {
 }
 
 .navbar-default .navbar-nav > .active a {
-    color: #bada55;
+    color: #428bca;
     background-color: transparent;
 }
 
@@ -312,7 +312,7 @@ a:focus {
     display: inline-block;
     float: none;
     margin: 0;
-    background: rgba( 186,218,85,0.3 );
+    background: rgba( 204, 204, 204, 0.3 );
     z-index: -10;
 }
 
